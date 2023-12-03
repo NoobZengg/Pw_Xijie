@@ -18,6 +18,7 @@ export const siteConfig: SiteConfig = {
 			day: "numeric",
 			month: "short",
 			year: "numeric",
+
 		},
 	},
 	// Include view-transitions: https://docs.astro.build/en/guides/view-transitions/
