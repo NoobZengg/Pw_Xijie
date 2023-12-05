@@ -1,0 +1,118 @@
+---
+import PageLayout from "@/layouts/Base";
+// import { getAllPosts, sortMDByDate } from "@/utils";
+
+// const MAX_POSTS = 10;
+// const allPosts = await getAllPosts();
+// const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+
+// const cactusTech: Array<{ title: string; desc: string; href: string }> = [
+// 	{
+// 		title: "Astro",
+// 		desc: "Build fast websites, faster.",
+// 		href: "https://astro.build",
+// 	},
+// 	{
+// 		title: "Astro Assets",
+// 		desc: "Built-in optimized asset support.",
+// 		href: "https://docs.astro.build/en/guides/assets/",
+// 	},
+// 	{
+// 		title: "Tailwind CSS",
+// 		desc: "Rapidly build modern websites without ever leaving your HTML.",
+// 		href: "https://tailwindcss.com",
+// 	},
+// 	{
+// 		title: "Markdown",
+// 		desc: "Simple and easy-to-use markup language.",
+// 		href: "https://www.markdownguide.org/",
+// 	},
+// 	{
+// 		title: "MDX",
+// 		desc: "Markdown for the component era.",
+// 		href: "https://mdxjs.com/",
+// 	},
+// 	{
+// 		title: "Satori",
+// 		desc: "Generating png Open Graph images for blog posts.",
+// 		href: "https://github.com/vercel/satori",
+// 	},
+// 	{
+// 		title: "Pagefind",
+// 		desc: "A fully static search library.",
+// 		href: "https://pagefind.app/",
+// 	},
+// 	{
+// 		title: "Astro Icon",
+// 		desc: "An easy to use Icon component for Astro.",
+// 		href: "https://github.com/natemoo-re/astro-icon#readme",
+// 	},
+// ];
+---
+
+<PageLayout meta={{ title: "About me" }}>
+	<section class="mt-5">
+		<h1 class="title mb-6 text-3xl text-accent">About me</h1>
+		<p class="mb-4 text-base">
+			I currently hold a Bachelor’s degree with Honours in Computer Science from Dalhousie
+			University, where I specialized in Artificial Intelligence and Intelligent Systems. My
+			academic journey included hands-on experience in data science, machine learning, natural
+			language processing and neural network applications, particularly in the context of mental
+			health.
+			<br />
+			<br />
+			 Beginning in Janurary 2024, I will start my PhD journey in Computer Science at Dalhousie
+			University with my supervisor Dr. Frank Rudzicz, who has guided me in completing my
+			undergraduate Honours thesis. As one of the graduate student researchers, my research will be
+			supported by the Vector Institute as well.
+			<br />
+			<br />
+			 The primary objective of my research will be using AI and machine learning to develop
+			innovative methods for detecting and intervening diseases related to neuromotor disorders. my
+			goal is to to accurately identify the specific progressive neurological conditions such as
+			Parkinson’s disease and Alzheimer’s disease.
+			<br />
+			<br />
+			 Besides academics, I am currently the president of the Dalhousie Chinese Students and
+			Scholars Association (DCSSA), where I am responsible for organizing and hosting events for the
+			Chinese community at Dalhousie. I'm also a painter with more than 10 years of experience, an
+			amateur designer, and a singer.
+			<br />
+			<br />
+			 If you are interested in my research or just curious about me, feel free to contact me via
+			xijie.zeng@dal.ca.
+		</p>
+	</section>
+	<!-- <section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Posts</h2>
+		<ul class="space-y-4 sm:space-y-2">
+			{
+				allPostsByDate.map((p) => (
+					<li class="flex flex-col gap-x-2 sm:flex-row">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
+	</section> -->
+	<!-- <section class="mt-16">
+		<h2 class="title mb-4 text-xl">Technologies</h2>
+		<ul class="space-y-4 sm:space-y-2">
+			{
+				cactusTech.map(({ href, title, desc }) => (
+					<li>
+						<a
+							href={href}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="cactus-link inline-block"
+						>
+							{title}
+						</a>
+						:<p class="inline-block sm:mt-2">{desc}</p>
+					</li>
+				))
+			}
+		</ul>
+	</section> -->
+</PageLayout>
